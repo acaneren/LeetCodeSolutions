@@ -16,7 +16,7 @@ int minEatingSpeed(int* piles, int pilesSize, int h) {
       
       int mid = left + (right - left) / 2;
       
-      int needed_hours = 0;
+      long long needed_hours = 0;
       
       for(int i=0; i < pilesSize; i++){
         needed_hours = needed_hours + ((long long)(piles[i] + mid - 1) / mid);
