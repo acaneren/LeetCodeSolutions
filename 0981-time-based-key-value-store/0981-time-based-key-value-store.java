@@ -53,6 +53,7 @@ class TimeMap {
 		if(right >= 0) {
 			return String.valueOf(valuesList.get(right)[1]);
 		}
+        
 		return "";
     }
 }
